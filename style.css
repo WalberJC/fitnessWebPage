@@ -145,3 +145,57 @@ img {
   font-weight: 400;
   width: 60%;
 }
+
+/* ======================= FOOTER ============================ */
+footer{
+  margin-top: 120px;
+  background: #28292B;
+  box-shadow:  10px 5px 200px rgb(0, 162, 255);
+}
+
+footer .about, .outhers, .contact{
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  color: #D5D9F9;
+  padding-top: 60px;
+}
+
+.about p{
+  color: #a2aaaa;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.outhers {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  background: #141517;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links a {
+  color: #D5D9F9;
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 20px;
+}
+
+.logo-footer {
+  width: 80px;
+}
+
+.me{
+  color: #D5D9F9;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 30px 0;
+  text-align: center;
+}
